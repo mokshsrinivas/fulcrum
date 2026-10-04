@@ -1,0 +1,15 @@
+{
+  "name": "fulcrum",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "python3 -m http.server 5173 --directory public",
+    "build:data": "node tools/build.mjs"
+  },
+  "devDependencies": {
+    "an-array-of-english-words": "^2.0.0",
+    "cuss": "^2.2.0",
+    "subtlex-word-frequencies": "^2.0.0"
+  },
+  "type": "module",
+  "private": true
+}

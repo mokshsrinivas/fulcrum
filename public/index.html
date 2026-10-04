@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fulcrum</title>
+  <meta name="description" content="A daily word game: find the word that sits exactly between two others.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Fulcrum</h1>
+    <nav>
+      <button id="mode-daily" class="tab" aria-pressed="true">Daily</button>
+      <button id="mode-practice" class="tab" aria-pressed="false">Practice</button>
+      <button id="help-open" class="tab" aria-label="How to play">?</button>
+    </nav>
+  </header>
+
+  <main id="app" aria-live="polite">
+    <p class="loading" id="loading">Loading the dictionary…</p>
+  </main>
+
+  <dialog id="help">
+    <h2>How to play</h2>
+    <p>You get two words. Type <strong>one word that sits right between them</strong> in meaning.</p>
+    <ul>
+      <li><strong>Balance</strong>: how evenly your word splits between the two. 50:50 is perfect.</li>
+      <li><strong>Relevance</strong>: how close your word is to both. An unrelated word can be balanced and still score nothing.</li>
+      <li><strong>Score</strong> = balance × relevance, out of 100.</li>
+    </ul>
+    <p>Five pairs a day, one guess each, and they get stranger as you go. Everyone gets the same pairs.</p>
+    <p class="fine">Word meanings come from ConceptNet Numberbatch (CC BY-SA 4.0). Rarity is based on how often a word appears in film and TV subtitles.</p>
+    <form method="dialog" class="actions"><button value="tutorial">Show tutorial</button><button class="primary">Got it</button></form>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
