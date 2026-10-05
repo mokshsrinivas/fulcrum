@@ -22,6 +22,9 @@ npm install
 npm run build:data -- path/to/numberbatch-en-19.08.txt.gz
 ```
 
+The one-line explanations shown beside each pair's best words live in `public/data/reasons.json` and are written by hand.
+After changing pairs, `node tools/picks.mjs --missing` lists the words that still need one.
+
 ## Data credits
 
 - Word vectors in `public/data/vectors.bin` are derived from [ConceptNet Numberbatch 19.08](https://github.com/commonsense/conceptnet-numberbatch),

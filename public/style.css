@@ -146,9 +146,14 @@ form.guess input {
 .map .la { fill: var(--a); font-weight: 700; }
 .map .lb { fill: var(--b); font-weight: 700; }
 
-ol.picks { margin: 8px 0 16px; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 6px; font-size: 14px; }
-ol.picks li { border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; }
-ol.picks li b { font-variant-numeric: tabular-nums; }
+.picks-title { margin: 14px 0 0; font-size: 15px; }
+ol.picks { margin: 4px 0 18px; padding: 0; list-style: none; }
+ol.picks li { display: flex; gap: 10px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--line); }
+ol.picks li:first-child { border-top: 0; }
+ol.picks .n { color: var(--muted); font-size: 13px; width: 1ch; }
+ol.picks div { flex: 1; min-width: 0; }
+ol.picks p { margin: 0; color: var(--muted); font-size: 14px; }
+ol.picks .s { font-weight: 600; font-variant-numeric: tabular-nums; }
 .actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
 
 .final { text-align: center; }

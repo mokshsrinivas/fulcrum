@@ -19,14 +19,17 @@ const $ = (html) => {
 
 // ---------- data ----------
 
-let words, index, vectors, norms, dim, tiers;
+let words, index, vectors, norms, dim, tiers, reasons;
 
 async function load() {
-  const [vocab, bin, pairs] = await Promise.all([
+  const [vocab, bin, pairs, why] = await Promise.all([
     fetch('data/vocab.txt').then((r) => r.text()),
     fetch('data/vectors.bin').then((r) => r.arrayBuffer()),
     fetch('data/pairs.json').then((r) => r.json()),
+    // Explanations are a nice-to-have; the game plays without them.
+    fetch('data/reasons.json').then((r) => r.json()).catch(() => ({})),
   ]);
+  reasons = why;
   words = vocab.split('\n');
   index = new Map(words.map((w, i) => [w, i]));
   vectors = new Int8Array(bin);
@@ -77,6 +80,8 @@ function preparePair([a, b]) {
     picks.push(r);
     if (picks.length === 5) break;
   }
+  const why = reasons[`${a}|${b}`] ?? {};
+  for (const p of picks) p.reason = why[p.word] ?? '';
   return { a, b, evaluate, picks };
 }
 
@@ -261,8 +266,11 @@ function renderResult(pair, r) {
       ${numbers(r)}
       <p class="rarity">${rarity} · #${(r.rank + 1).toLocaleString()} of ${words.length.toLocaleString()} words by how often it’s used</p>
       ${meaningMap(pair, r)}
-      <ol class="picks" aria-label="Best words found">
-        ${pair.picks.map((p, i) => `<li>${i + 1}. ${p.word} <b>${fmt(p.total)}</b></li>`).join('')}
+      <h2 class="picks-title">Best words found</h2>
+      <ol class="picks">
+        ${pair.picks
+          .map((p, i) => `<li><span class="n">${i + 1}</span><div><b>${p.word}</b><p>${p.reason}</p></div><span class="s">${fmt(p.total)}</span></li>`)
+          .join('')}
       </ol>
       <div class="actions"><button class="primary" id="next"></button></div>
     </section>`);
@@ -278,12 +286,31 @@ function renderResult(pair, r) {
   next.focus();
 }
 
-function shareText() {
-  const rows = game.results.map((r) => {
+function shareRows() {
+  return game.results.map((r) => {
     const k = Math.max(0, Math.min(10, Math.round(r.share * 10)));
     return '🟦'.repeat(k) + '|' + '🟧'.repeat(10 - k);
   });
-  return [`Fulcrum #${game.day}  ⚖️ ${fmt(dailyTotal())}`, ...rows].join('\n');
+}
+const shareHead = () => `#${game.day}  ⚖️ ${fmt(dailyTotal())}`;
+const shareText = () => [`Fulcrum ${shareHead()}`, ...shareRows()].join('\n');
+
+// Copies the result with "Fulcrum" linked to the game. Apps that only take
+// plain text (most messaging apps) get the address on its own line instead.
+async function copyResult() {
+  const url = location.origin + location.pathname;
+  const plain = `${shareText()}\n${url}`;
+  const html = [`<a href="${url}">Fulcrum</a> ${shareHead()}`, ...shareRows()].join('<br>');
+  if (window.ClipboardItem && navigator.clipboard.write) {
+    await navigator.clipboard.write([
+      new ClipboardItem({
+        'text/plain': new Blob([plain], { type: 'text/plain' }),
+        'text/html': new Blob([html], { type: 'text/html' }),
+      }),
+    ]);
+  } else {
+    await navigator.clipboard.writeText(plain);
+  }
 }
 
 function renderFinal() {
@@ -316,7 +343,7 @@ function renderFinal() {
   const copy = view.querySelector('#copy');
   copy.onclick = async () => {
     try {
-      await navigator.clipboard.writeText(shareText());
+      await copyResult();
       copy.textContent = 'Copied';
     } catch {
       copy.textContent = 'Select the text above to copy';

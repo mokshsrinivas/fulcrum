@@ -1,0 +1,737 @@
+{
+  "knife|fork": {
+    "spatula": "A kitchen utensil like both, and neither one's obvious partner.",
+    "spoon": "The third piece of cutlery, sitting beside both at every place setting.",
+    "skewer": "Cuts through food like a knife and spears it like a fork.",
+    "pitchfork": "A fork in name and shape, with a blade's sharp points.",
+    "silverware": "The category that contains both."
+  },
+  "mirror|window": {
+    "glass": "Both are made of it.",
+    "windshield": "A window you look through, with a mirror mounted on it.",
+    "tinted": "Tinted glass is a window that starts to act like a mirror.",
+    "peephole": "A small glass opening you look through, like a tiny window.",
+    "porthole": "A ship's round window, shaped like a wall mirror."
+  },
+  "piano|guitar": {
+    "saxophone": "Another lead instrument found in the same bands.",
+    "violin": "Stringed like a guitar and classical like a piano.",
+    "banjo": "A plucked string instrument, close kin to the guitar.",
+    "sax": "Short for saxophone, another instrument in the same bands.",
+    "cello": "A string instrument that shares the concert stage with the piano."
+  },
+  "river|lake": {
+    "creek": "A small body of fresh water, between a stream and a pond.",
+    "downriver": "Where a river is heading, often into a lake.",
+    "pond": "A small lake, often fed by a stream.",
+    "bayou": "Slow, marshy water that is part river and part lake.",
+    "loch": "The Scottish word for a lake, often a long river-like one."
+  },
+  "coffee|tea": {
+    "decaf": "Both come in a caffeine-free version.",
+    "chai": "Spiced tea that coffee shops serve like a latte.",
+    "brewed": "How both are made.",
+    "iced": "Both are served cold over ice.",
+    "beverage": "The category that contains both."
+  },
+  "winter|summer": {
+    "autumn": "The season that falls between them.",
+    "springtime": "The other season that falls between them.",
+    "season": "The category that contains both.",
+    "midsummer": "Marks the solstice, as midwinter does on the other side.",
+    "holiday": "Both have their own: the summer holiday and the winter holidays."
+  },
+  "bread|butter": {
+    "cheese": "Dairy like butter, and bread's other constant companion.",
+    "shortcake": "A baked good made with plenty of butter.",
+    "flour": "A baking staple: the base of bread, mixed with butter in pastry.",
+    "pastry": "Baked like bread and rich with butter.",
+    "dough": "Bread before baking, usually with butter worked in."
+  },
+  "brother|friend": {
+    "cousin": "Family like a brother, but often closer to a friend.",
+    "boyfriend": "A male companion: more than a friend, not quite family.",
+    "niece": "A family member, though this one leans heavily on the brother side.",
+    "compadre": "Spanish for a close friend who is treated like family.",
+    "buddy": "What you call a close friend, or your brother."
+  },
+  "gold|silver": {
+    "bullion": "Bars of precious metal, which means gold or silver.",
+    "copper": "The third traditional coin metal.",
+    "gilded": "Covered in a thin layer of gold, often over silver.",
+    "platinum": "The other precious metal, coloured like silver and priced like gold.",
+    "bronze": "The medal that comes after them."
+  },
+  "wolf|sheep": {
+    "deer": "A four-legged animal: wild like the wolf, grazing like the sheep.",
+    "elk": "A wild grazing animal, and common prey for wolves.",
+    "fur": "Both are known for their coats.",
+    "antelope": "A herd grazer like sheep, hunted by predators like wolves.",
+    "boar": "A wild relative of a farm animal."
+  },
+  "horse|cow": {
+    "donkey": "A farm animal, close to the horse and kept alongside cattle.",
+    "oxen": "Cattle that do a horse's job of pulling.",
+    "burro": "A small donkey, another working farm animal.",
+    "bull": "A male cow, ridden at rodeos like a horse.",
+    "barn": "Where both are kept."
+  },
+  "city|village": {
+    "town": "Bigger than a village, smaller than a city.",
+    "township": "A local unit of settlement, between the two in scale.",
+    "district": "A part of a city that can be the size of a village.",
+    "borough": "A self-governing town or a section of a city.",
+    "burg": "An old word for a town."
+  },
+  "car|boat": {
+    "towed": "A car tows a boat on a trailer, and both get towed when they break down.",
+    "towing": "Cars tow boats, and boats tow other boats.",
+    "tow": "The thing that connects them: one pulls the other.",
+    "cruiser": "Names both a police car and a kind of boat.",
+    "corvette": "A sports car named after a small warship."
+  },
+  "forest|mountain": {
+    "wilderness": "Wild land that covers both.",
+    "creek": "Runs down mountains and through forests.",
+    "glen": "A narrow wooded valley between hills.",
+    "trail": "The path you hike through either.",
+    "ravine": "A steep, often wooded gorge in mountain country."
+  },
+  "rain|snow": {
+    "sleet": "Literally a mix of the two.",
+    "weather": "The category that contains both.",
+    "blizzard": "A storm of snow, as a downpour is of rain.",
+    "fog": "Another kind of weather made of water in the air.",
+    "storm": "Either one can arrive as a storm."
+  },
+  "cat|dog": {
+    "pet": "The category that contains both.",
+    "pup": "A young dog, close to both as a young pet.",
+    "kitten": "A young cat, the counterpart of a puppy.",
+    "puppy": "A young dog, the counterpart of a kitten.",
+    "kitty": "A pet name for a cat, used the way doggy is."
+  },
+  "farm|garden": {
+    "orchard": "Planted and tended like a garden, harvested like a farm.",
+    "meadow": "Open grassy land found around both.",
+    "greenhouse": "Where plants are raised, at garden or farm scale.",
+    "fertilizer": "Used on the soil of both.",
+    "plantation": "A very large farm devoted to planted crops."
+  },
+  "wedding|funeral": {
+    "ceremony": "Both are ceremonies.",
+    "procession": "Both have one: down the aisle, or to the grave.",
+    "christening": "Another church rite that marks a stage of life.",
+    "homecoming": "A gathering of family and old friends, as both tend to be.",
+    "bridegroom": "A wedding word; the funeral link is weak here."
+  },
+  "sun|moon": {
+    "sky": "Where both are found.",
+    "eclipse": "When one passes in front of the other.",
+    "starlight": "Light from the night sky, akin to sunlight and moonlight.",
+    "venus": "Another bright body in the sky, visible at dawn and dusk.",
+    "star": "The sun is one, and the moon keeps company with the rest."
+  },
+  "apple|orange": {
+    "fruit": "The category that contains both.",
+    "mango": "Another fruit.",
+    "cherry": "Another fruit, and like both a common flavour.",
+    "raspberry": "Another fruit and flavour.",
+    "boysenberry": "Another fruit; the model treats most fruits as equally close."
+  },
+  "bed|chair": {
+    "sofa": "Furniture you sit on like a chair and lie on like a bed.",
+    "couch": "You can sit on it or sleep on it.",
+    "lounging": "What you do in either.",
+    "futon": "A sofa that folds out into a bed.",
+    "cot": "A small, simple bed, light enough to move like a chair."
+  },
+  "book|movie": {
+    "trilogy": "A story told in three books or three films.",
+    "comic": "A book told in pictures, and a frequent source of movies.",
+    "thriller": "A genre shared by both.",
+    "sequel": "Both get them.",
+    "story": "What both tell."
+  },
+  "ship|plane": {
+    "boarded": "What passengers do to both.",
+    "spaceship": "A ship that flies.",
+    "airship": "A ship of the air.",
+    "hijacked": "Something that happens to both.",
+    "piloting": "Both are steered by a pilot."
+  },
+  "honey|gold": {
+    "amber": "The golden colour of honey.",
+    "melted": "Both turn into a thick golden liquid.",
+    "wheat": "A golden crop and a sweet, natural food.",
+    "mahogany": "A warm, rich colour in the same family.",
+    "grain": "Golden in the field, and a measure for gold."
+  },
+  "needle|doctor": {
+    "anesthesia": "Given by a doctor through a needle.",
+    "acupuncture": "Medical treatment that is all needles.",
+    "anaesthetic": "Injected by a doctor before a procedure.",
+    "surgical": "Describes both a doctor's work and the needle used to stitch.",
+    "scalpel": "The other sharp instrument in a doctor's hand."
+  },
+  "milk|wine": {
+    "juice": "Another drink, as everyday as milk and from fruit like wine.",
+    "fermented": "Wine is fermented, and so is milk in yoghurt and kefir.",
+    "malt": "Goes into malted milk and into brewing.",
+    "jug": "What either is poured from.",
+    "drank": "What you did with both."
+  },
+  "ocean|desert": {
+    "sand": "A beach has it and so does a desert.",
+    "riviera": "A dry, sunny coastline.",
+    "inland": "Defined by distance from the sea, which is where deserts lie.",
+    "mediterranean": "A sea bordered by desert along its southern shore.",
+    "dune": "Formed by wind on beaches and in deserts."
+  },
+  "castle|hotel": {
+    "mansion": "A grand residence, between a castle and a luxury hotel.",
+    "palace": "A royal home, and a common name for grand hotels.",
+    "cottage": "A place to stay, at the small end of the scale.",
+    "manor": "A historic great house, many of which are now hotels.",
+    "chateau": "A French castle, many of which are now hotels."
+  },
+  "ice|diamond": {
+    "granite": "A hard stone; the link to ice is its cold hardness.",
+    "champagne": "Served on ice, and sparkling like a diamond.",
+    "marble": "Cold, hard and polished.",
+    "snowflake": "An ice crystal, shaped and cut like a gem.",
+    "sparkling": "What both do in the light."
+  },
+  "crown|tooth": {
+    "pearly": "Pearly whites are teeth, and pearls decorate crowns.",
+    "crest": "The top of something: a crown is one, and a tooth has one.",
+    "trident": "A royal symbol with three tooth-like prongs.",
+    "skull": "The crown of the head and the teeth are both part of it.",
+    "earring": "Jewellery like a crown, worn on the head near the teeth."
+  },
+  "sword|pen": {
+    "chisel": "A bladed hand tool that writes by carving.",
+    "hand": "Both are held in one.",
+    "stick": "Both are thin things you hold and point with.",
+    "screwdriver": "A slim hand tool with a point.",
+    "wand": "A slender thing you wield, between a blade and a pen."
+  },
+  "doctor|teacher": {
+    "counselor": "A trained professional who both helps and advises.",
+    "practitioner": "A word for someone trained in a profession like either.",
+    "matron": "A senior woman in charge at a hospital or a school.",
+    "prof": "A teacher who holds a doctorate.",
+    "therapist": "Treats like a doctor, guides like a teacher."
+  },
+  "soldier|police": {
+    "officer": "A rank in both.",
+    "sergeant": "A rank in both the army and the police.",
+    "trooper": "Both a cavalry soldier and a state police officer.",
+    "uniformed": "Describes both.",
+    "militia": "Armed citizens who are part army, part local police."
+  },
+  "kitchen|laboratory": {
+    "stockroom": "A work room where supplies are kept.",
+    "darkroom": "A small room for working with chemicals.",
+    "cubicle": "A small enclosed place to work.",
+    "storeroom": "A back room full of supplies, like a pantry or a chemical store.",
+    "dormitory": "Another room in an institution; a weak link."
+  },
+  "thunder|drum": {
+    "blaring": "A loud sound, like both.",
+    "thump": "The low sound both make.",
+    "sound": "Both are known mainly for theirs.",
+    "pounding": "What a drum takes and what thunder sounds like.",
+    "clanging": "A loud, struck noise."
+  },
+  "garden|grave": {
+    "wreath": "Flowers from a garden, laid on a grave.",
+    "soil": "What a garden grows in and a grave is dug in.",
+    "spade": "The tool that digs both.",
+    "ground": "Both are plots of it.",
+    "shovel": "Used to dig both."
+  },
+  "shadow|secret": {
+    "invisibility": "Being hidden from view, the idea behind both.",
+    "skulking": "Moving in the shadows to keep something secret.",
+    "obscure": "Hidden or hard to see.",
+    "unseen": "What is in shadow, and what is kept secret.",
+    "whisper": "How secrets are told, quietly and out of sight."
+  },
+  "shoe|hat": {
+    "apparel": "The category that contains both.",
+    "clothing": "The category that contains both.",
+    "wear": "What you do with both.",
+    "wearing": "What you do with both.",
+    "glove": "Another accessory that covers one end of you."
+  },
+  "hand|eye": {
+    "cheek": "A part of the body, near the eye and touched by the hand.",
+    "forehead": "A part of the face, above the eye.",
+    "mouth": "Another body part; the model treats facial features as equally close.",
+    "chin": "A part of the face you rest on your hand.",
+    "face": "Has eyes, and a clock's face has hands."
+  },
+  "school|hospital": {
+    "institution": "The category that contains both.",
+    "nursery": "A place for babies in a hospital and small children in a school.",
+    "convent": "Nuns have long run both schools and hospitals.",
+    "premed": "The schooling that leads to hospital work.",
+    "daycare": "A place that looks after children during the day."
+  },
+  "breakfast|sunrise": {
+    "midday": "A time of day, and a mealtime, later than both.",
+    "noon": "The next marker in the day after both.",
+    "morning": "When both happen.",
+    "morn": "A poetic word for morning, when both happen.",
+    "afternoon": "A time of day; it leans on the daily-rhythm link only."
+  },
+  "dream|memory": {
+    "subconscious": "Where both come from.",
+    "reliving": "Going back through a memory, as dreams often do.",
+    "childhood": "The subject of many dreams and memories.",
+    "mind": "Where both live.",
+    "haunting": "What a strong dream or memory does."
+  },
+  "banana|justice": {
+    "burger": "No clear link; this one is likely a quirk of the model.",
+    "rainbow": "No clear link; this one is likely a quirk of the model.",
+    "batman": "A member of the Justice League, and Bananaman is a spoof superhero.",
+    "republic": "A banana republic, and a republic's promise of justice.",
+    "spiderman": "A superhero who fights for justice; the banana link is weak."
+  },
+  "money|love": {
+    "trust": "A fund that holds money, and the basis of love.",
+    "interest": "Money earns it, and love begins with it.",
+    "precious": "Describes what is valued, in either sense.",
+    "goodwill": "Warm feeling, and an asset on a balance sheet.",
+    "treasure": "Riches, and what you call someone you love."
+  },
+  "baby|robot": {
+    "toy": "Babies play with them, and many toys are robots.",
+    "doll": "A baby-shaped figure that is not alive.",
+    "kewpie": "A baby-faced doll.",
+    "dollhouse": "Home for dolls; a looser link through toys.",
+    "dolly": "A child's doll, and a wheeled machine for moving things."
+  },
+  "school|factory": {
+    "town": "A place that has both.",
+    "clinic": "Another building where people go for a service.",
+    "office": "Another place of daily work.",
+    "department": "Both are organised into them.",
+    "building": "Both are buildings."
+  },
+  "storm|anger": {
+    "raging": "Describes a storm and a temper.",
+    "turmoil": "Violent disturbance, in the weather or in feelings.",
+    "outburst": "A sudden release of either.",
+    "lashing": "Rain lashes, and so does an angry tongue.",
+    "fierce": "Describes both."
+  },
+  "carpet|election": {
+    "slate": "A slate of candidates, and a stone used for floors.",
+    "seat": "What an election is fought over, and furniture that sits on carpet.",
+    "chair": "An elected position, and furniture.",
+    "cabinet": "Formed after an election, and a piece of furniture.",
+    "office": "What candidates run for, and a carpeted room."
+  },
+  "rocket|bird": {
+    "aeroplane": "A flying machine, between an animal that flies and a rocket.",
+    "soar": "What both do.",
+    "flown": "Both are.",
+    "airplane": "A winged thing that flies under power.",
+    "hornet": "A flying creature that is also the name of a fighter jet."
+  },
+  "wizard|plumber": {
+    "apprentice": "Both trades are learned as one, as in the sorcerer's apprentice.",
+    "practitioner": "Someone who practises a craft, magical or manual.",
+    "helper": "A plumber's mate or a wizard's assistant.",
+    "expert": "A wizard at something is an expert, and a plumber is a skilled trade.",
+    "spiderman": "No clear link; this one is likely a quirk of the model."
+  },
+  "pillow|lawsuit": {
+    "charge": "A legal accusation; the pillow link is weak.",
+    "goliath": "No clear link; this one is likely a quirk of the model.",
+    "lodged": "A lawsuit is lodged, and you lodge where you sleep.",
+    "zipper": "Found on a pillow cover; the lawsuit link is weak.",
+    "facing": "You face a lawsuit, and facing is fabric on bedding."
+  },
+  "coffee|midnight": {
+    "teatime": "A set hour of the day tied to a hot drink.",
+    "brunch": "A meal defined by its hour, served with coffee.",
+    "lunchtime": "A named time of day with a drink attached.",
+    "dinner": "The late meal, usually finished with coffee.",
+    "nightcap": "A drink taken late at night."
+  },
+  "music|painting": {
+    "composition": "A piece of music, and the arrangement of a painting.",
+    "artiste": "A performer or creative artist of either kind.",
+    "studio": "Where both are made.",
+    "arty": "Describes someone drawn to both.",
+    "poetry": "The third of the classic arts."
+  },
+  "candle|star": {
+    "twinkle": "What both do.",
+    "luminous": "Giving off light, as both do.",
+    "shone": "What both did in the dark.",
+    "shine": "What both do.",
+    "sparkle": "A small flickering light."
+  },
+  "feather|knife": {
+    "paintbrush": "A hand tool with a soft tip, shaped like a quill.",
+    "brush": "Soft like a feather, held like a knife.",
+    "broomstick": "A handle with a bristled end; a loose link.",
+    "talon": "A bird's own blade.",
+    "pointy": "Describes a quill and a knife."
+  },
+  "church|prison": {
+    "nunnery": "A religious house where people live enclosed.",
+    "penitent": "Someone seeking forgiveness, and the root of penitentiary.",
+    "courthouse": "A solemn public building that sends people to prison.",
+    "institution": "The category that contains both.",
+    "commissary": "A prison shop, and a church official's title."
+  },
+  "night|music": {
+    "cabaret": "Live music at a nightclub.",
+    "ballroom": "Where people dance to music in the evening.",
+    "rave": "An all-night music party.",
+    "rehearsal": "An evening of practising music.",
+    "serenade": "Music played at night beneath someone's window."
+  },
+  "cloud|pillow": {
+    "fluffy": "Describes both.",
+    "canopy": "A covering overhead, of cloud or over a bed.",
+    "puffy": "Describes both.",
+    "fuzzy": "Soft and without sharp edges.",
+    "riverbed": "A bed in name only; likely a quirk of the model."
+  },
+  "chess|war": {
+    "stalemate": "A chess ending and a deadlocked war.",
+    "joust": "A contest of combat between two opponents, with knights.",
+    "strategy": "What both are won by.",
+    "showdown": "A decisive confrontation.",
+    "tactical": "Describes moves in both."
+  },
+  "doctor|pirate": {
+    "crewman": "A ship's crew includes both a doctor and, on some ships, pirates.",
+    "commander": "A title of rank, like doctor and captain.",
+    "captain": "A pirate's rank, and a title used like doctor.",
+    "spaceman": "A stock character in adventure stories, as both are.",
+    "witch": "A costume character with a healer's reputation."
+  },
+  "circus|hospital": {
+    "madhouse": "An asylum, and a word for chaotic spectacle.",
+    "bedlam": "The name of a famous asylum that came to mean uproar.",
+    "zoo": "Animals on show, and a word for a chaotic place.",
+    "nuthouse": "Slang for an asylum, used for any wild scene.",
+    "playroom": "Found in a children's ward, and full of fun."
+  },
+  "engine|heart": {
+    "pumping": "What both do.",
+    "pump": "The heart is one, and engines drive them.",
+    "stroke": "A piston's movement, and a failure of blood supply.",
+    "organ": "The heart is one, and both are a body's working part.",
+    "bleeder": "A valve on an engine, and something that bleeds."
+  },
+  "map|brain": {
+    "spatial": "Maps show space, and the brain reasons about it.",
+    "visual": "A map is a picture, processed by the visual brain.",
+    "memorized": "What the brain does with a map.",
+    "maze": "Solved with a map or in the head.",
+    "vision": "How maps are read, and a large part of what the brain does."
+  },
+  "zipper|cathedral": {
+    "doorway": "An opening, which is what a zipper makes.",
+    "exterior": "Both have an outside and an inside.",
+    "interior": "Both have an inside and an outside.",
+    "becket": "Thomas Becket was killed in a cathedral; a becket is also a fastening.",
+    "gate": "An opening that closes."
+  },
+  "salt|tear": {
+    "rub": "Salt is rubbed in wounds, and eyes are rubbed when crying.",
+    "dissolve": "Salt dissolves, and people dissolve into tears.",
+    "melt": "Salt melts ice, and people melt into tears.",
+    "rubbing": "Rubbing salt in, and rubbing teary eyes.",
+    "grind": "What you do to salt; the tear link is weak."
+  },
+  "pickle|orchestra": {
+    "salsa": "A sauce and a style of music.",
+    "pippin": "An apple and a musical; a loose link.",
+    "funky": "Describes a strong smell and a style of music.",
+    "jam": "A preserve, and musicians playing together.",
+    "toot": "The sound of a horn; the pickle link is weak."
+  },
+  "pirate|kindergarten": {
+    "carnival": "Costumes and play, with pirates among them.",
+    "pixie": "A storybook character for small children.",
+    "fairy": "Peter Pan's world has both fairies and pirates.",
+    "pinata": "A children's party game, often pirate-themed.",
+    "urchin": "A scruffy child, and a creature of the sea."
+  },
+  "tax|volcano": {
+    "hike": "A tax hike, and a hike up a volcano.",
+    "smog": "Volcanic haze, and the pollution that gets taxed.",
+    "soda": "A soda tax, and the fizzing model volcano.",
+    "methane": "A gas volcanoes release and governments tax.",
+    "cigarette": "Heavily taxed, and it smokes."
+  },
+  "bridge|promise": {
+    "restore": "You restore a bridge, and restore trust after a broken promise.",
+    "memory": "No clear link; this one is likely a quirk of the model.",
+    "rainbow": "A bridge in the sky, and the sign of a promise in the Bible.",
+    "protocol": "A formal agreement, and a network bridge follows one.",
+    "mend": "What you do to a bridge or a broken promise."
+  },
+  "dragon|dentist": {
+    "crest": "A toothpaste brand, and a dragon on a coat of arms.",
+    "porcelain": "Used for dental crowns and painted with dragons.",
+    "shark": "A fearsome creature known for its teeth.",
+    "piranha": "A fearsome creature known for its teeth.",
+    "munchkin": "No clear link; this one is likely a quirk of the model."
+  },
+  "lobster|algebra": {
+    "passover": "No clear link; this one is likely a quirk of the model.",
+    "thanksgiving": "A big meal; the algebra link is not clear.",
+    "seder": "No clear link; this one is likely a quirk of the model.",
+    "prime": "Prime numbers, and prime as a grade of food.",
+    "matzo": "No clear link; this one is likely a quirk of the model."
+  },
+  "moon|cheese": {
+    "milky": "The Milky Way, and what cheese is made from.",
+    "saucer": "A flying saucer, and a dish.",
+    "crust": "The moon has one and so does cheese.",
+    "rock": "What the moon is actually made of.",
+    "disk": "The shape of the full moon and a wheel of cheese."
+  },
+  "fire|ice": {
+    "warm": "The temperature between them.",
+    "lava": "Fire in liquid form that cools to solid.",
+    "molten": "Melted by heat, as ice is.",
+    "hot": "Fire's side of the scale; a slightly lopsided pick.",
+    "warming": "What fire does and what melts ice."
+  },
+  "sock|opera": {
+    "puppet": "A sock puppet, and puppet opera.",
+    "soap": "A soap opera; the sock link is the laundry.",
+    "costume": "Opera is performed in it, and socks are part of it.",
+    "cotillion": "A formal dance; a loose link.",
+    "kazoo": "A silly instrument; a loose link."
+  },
+  "onion|democracy": {
+    "newspaperman": "The Onion is a satirical newspaper, and the press serves democracy.",
+    "tribune": "A newspaper name, and an elected Roman official.",
+    "chile": "A food ingredient, and a country that returned to democracy.",
+    "indivisible": "From the pledge of allegiance; the onion link is weak.",
+    "satire": "What The Onion publishes about politics."
+  },
+  "ketchup|museum": {
+    "paint": "Thick and red, and what hangs in a museum.",
+    "preserved": "Ketchup is a preserve, and museums preserve things.",
+    "varnish": "A glossy coating on museum paintings.",
+    "munch": "Eating, and the painter Edvard Munch.",
+    "lacquer": "A glossy red coating seen on museum pieces."
+  },
+  "library|jungle": {
+    "botanical": "A botanical garden is a catalogued collection of plants.",
+    "playground": "A jungle gym, and a public place for children.",
+    "java": "A jungle island, and a language with code libraries.",
+    "lulu": "No clear link; this one is likely a quirk of the model.",
+    "treasure": "Hidden in jungles and in old books."
+  },
+  "pancake|treason": {
+    "smear": "You smear a pancake with butter, and smear a traitor's name.",
+    "caper": "A food garnish, and a criminal escapade.",
+    "charade": "A pretence; the pancake link is weak.",
+    "distortion": "No clear link; this one is likely a quirk of the model.",
+    "hill": "No clear link; this one is likely a quirk of the model."
+  },
+  "king|spider": {
+    "dragon": "A fearsome creature of fairy tales, where kings live.",
+    "bee": "A creature with a queen and a colony.",
+    "slayer": "Stories have both dragon slayers and king slayers.",
+    "fairy": "A storybook character alongside kings and spiders.",
+    "merlin": "King Arthur's wizard."
+  },
+  "train|snake": {
+    "elephant": "Large animals walk in a line called a train; a loose link.",
+    "tube": "The London underground, and a snake's shape.",
+    "underground": "Where trains run and snakes burrow.",
+    "pipeline": "Long, thin and winding across the land.",
+    "donkey": "A pack animal in a mule train; a loose link."
+  },
+  "cheese|astronaut": {
+    "jellybean": "A snack food; a loose link.",
+    "doughboy": "A puffy white figure, like an astronaut in a suit.",
+    "foam": "Light and full of holes, and used in spacecraft.",
+    "marshmallow": "A puffy white food, like a space suit.",
+    "jimmy": "No clear link; this one is likely a quirk of the model."
+  },
+  "clock|river": {
+    "winding": "You wind a clock, and a river winds.",
+    "tide": "Water that keeps time.",
+    "kettle": "No clear link; this one is likely a quirk of the model.",
+    "leisurely": "A slow pace, of time or of water.",
+    "sunset": "A time of day, often watched over water."
+  },
+  "elevator|jealousy": {
+    "attraction": "A ride, and the feeling that jealousy grows from.",
+    "claustrophobia": "A strong feeling, set off by lifts.",
+    "vent": "An air shaft, and letting feelings out.",
+    "venting": "Releasing air, or releasing feelings.",
+    "giddy": "A rush of feeling, like going up fast."
+  },
+  "lawyer|wolf": {
+    "cohen": "A common surname for lawyers; the wolf link is weak.",
+    "watchdog": "A guard dog, and a body that polices conduct.",
+    "goodman": "Saul Goodman, the TV lawyer; the wolf link is weak.",
+    "richter": "German for judge; the wolf link is weak.",
+    "trooper": "Law enforcement; a loose link."
+  },
+  "lemon|funeral": {
+    "floral": "A scent like lemon, and what fills a funeral.",
+    "bouquet": "Flowers at a funeral, and a word for a fragrance.",
+    "flower": "Lemon trees blossom, and funerals are full of flowers.",
+    "carnation": "A traditional funeral flower.",
+    "potpourri": "Dried flowers and citrus peel."
+  },
+  "rabbit|satellite": {
+    "ham": "Ham radio operators talk through satellites; the rabbit link is weak.",
+    "castor": "Latin for beaver, and a bright star.",
+    "saucer": "A flying saucer; the rabbit link is weak.",
+    "roadrunner": "A cartoon animal, like Bugs Bunny.",
+    "raptor": "A bird that hunts rabbits, and the name of a jet."
+  },
+  "microwave|monk": {
+    "telepathic": "Invisible signals, and a mystic's supposed power.",
+    "scientist": "Monks like Mendel were early scientists.",
+    "telekinesis": "Acting at a distance without touching.",
+    "physicist": "Studies microwaves; the monk link is the life of study.",
+    "chef": "Uses a kitchen, and wears a uniform; a loose link."
+  },
+  "parrot|contract": {
+    "pen": "Signs a contract, and a pen holds animals.",
+    "owner": "A parrot has one, and a contract names one.",
+    "monogamous": "Parrots pair for life, and marriage is a contract.",
+    "courtship": "Birds do it, and it leads to a marriage contract.",
+    "tattooed": "Pirates have parrots and tattoos; a loose link."
+  },
+  "giraffe|insurance": {
+    "pet": "An animal you can insure.",
+    "sitter": "A pet sitter, who needs insurance; a loose link.",
+    "holder": "A policy holder; the giraffe link is weak.",
+    "livestock": "Animals that are routinely insured.",
+    "veterinary": "Animal care, paid for by pet insurance."
+  },
+  "umbrella|revenge": {
+    "sledgehammer": "No clear link; this one is likely a quirk of the model.",
+    "pretext": "A cover story, as an umbrella is a cover.",
+    "title": "Umbrella title, and revenge is a common film title; a loose link.",
+    "bodyguard": "Protection, which is what an umbrella gives.",
+    "opener": "An umbrella opens; the revenge link is weak."
+  },
+  "ghost|child": {
+    "creature": "A being that could be either.",
+    "angelic": "Describes a spirit and a well-behaved child.",
+    "godmother": "A fairy godmother watches over a child.",
+    "critter": "A small being, used fondly of children and spooks.",
+    "puppet": "A small figure that seems alive."
+  },
+  "sandwich|philosophy": {
+    "quaker": "An oats brand, and a religious way of life.",
+    "diet": "What you eat, and a set of principles about it.",
+    "choice": "A menu decision, and a central idea in ethics.",
+    "dieting": "Food governed by a principle.",
+    "speciality": "A house dish, and a field of study."
+  },
+  "teacher|mirror": {
+    "peer": "A classmate, and to look closely.",
+    "driver": "A driving instructor's pupil uses the mirrors.",
+    "desk": "A teacher's desk; the mirror link is furniture.",
+    "spotter": "Someone who watches and corrects you.",
+    "meditation": "Reflection, taught by a teacher."
+  },
+  "wallet|glacier": {
+    "parka": "Cold-weather gear with a pocket for a wallet.",
+    "backpacking": "What you carry, and where you might see a glacier.",
+    "thermos": "Something you carry in the cold.",
+    "jawbone": "No clear link; this one is likely a quirk of the model.",
+    "fleece": "Cold-weather clothing, and slang for taking someone's money."
+  },
+  "hammer|poem": {
+    "chord": "Hammered on a piano, and part of a song.",
+    "typewriter": "Keys that hammer out words.",
+    "sandman": "A song and a folk figure; a loose link.",
+    "sculptor": "An artist who works with a hammer.",
+    "bellow": "A blacksmith's bellows, and a loud voice."
+  },
+  "penguin|mortgage": {
+    "underwater": "Where penguins swim, and a mortgage worth more than the house.",
+    "bear": "A cold-climate animal, and a falling market.",
+    "fin": "A flipper, and short for finance.",
+    "barney": "No clear link; this one is likely a quirk of the model.",
+    "balloon": "A balloon payment at the end of a mortgage."
+  },
+  "dentist|thunder": {
+    "pearly": "Pearly whites; the thunder link is weak.",
+    "clipper": "No clear link; this one is likely a quirk of the model.",
+    "piercing": "Describes a drill's whine and a loud crack.",
+    "norman": "No clear link; this one is likely a quirk of the model.",
+    "sleigh": "No clear link; this one is likely a quirk of the model."
+  },
+  "nun|motorcycle": {
+    "fraternity": "A brotherhood, religious or of bikers.",
+    "cabbie": "Someone on the road; a loose link.",
+    "cop": "A motorcycle cop, and a uniform.",
+    "brotherhood": "A religious order, and a biker club.",
+    "pilgrimage": "A religious journey, and a long ride."
+  },
+  "toothbrush|empire": {
+    "brand": "Toothbrushes are sold by brand, and brands build empires.",
+    "carpet": "A household item; a loose link.",
+    "scepter": "An emperor's rod, held like a brush.",
+    "tiara": "An imperial ornament; the toothbrush link is weak.",
+    "bedspread": "A household item; a loose link."
+  },
+  "tractor|ballet": {
+    "carousel": "It turns in circles to music, and it is a machine.",
+    "stagecoach": "A vehicle with a stage in its name.",
+    "train": "A vehicle, and what dancers do.",
+    "streetcar": "A vehicle, and the play A Streetcar Named Desire.",
+    "rodeo": "A rural show, and the ballet Rodeo."
+  },
+  "mushroom|battery": {
+    "bulb": "A rounded shape, and something a battery lights.",
+    "conk": "A bracket fungus, and to conk out.",
+    "mount": "No clear link; this one is likely a quirk of the model.",
+    "fuse": "An electrical part; the mushroom link is weak.",
+    "button": "A button mushroom and a button battery."
+  },
+  "vampire|accountant": {
+    "inquisitor": "A feared examiner, of souls or of books.",
+    "lawman": "A figure of authority; a loose link.",
+    "collector": "A debt collector, and one who takes what is owed.",
+    "matchmaker": "A profession from old-world stories; a loose link.",
+    "gigolo": "Works at night and for money."
+  },
+  "trumpet|potato": {
+    "gourd": "A vegetable that is made into instruments.",
+    "puffed": "Puffed cheeks, and puffed potato snacks.",
+    "cannonball": "Cannonball Adderley the jazz player; the potato link is shape.",
+    "kettle": "A kettle drum and kettle chips.",
+    "abalone": "No clear link; this one is likely a quirk of the model."
+  },
+  "octopus|piano": {
+    "puppeteer": "Many limbs working at once.",
+    "pinball": "A machine played with fast fingers.",
+    "schnitzel": "No clear link; this one is likely a quirk of the model.",
+    "mignon": "No clear link; this one is likely a quirk of the model.",
+    "doll": "No clear link; this one is likely a quirk of the model."
+  },
+  "skeleton|birthday": {
+    "costume": "A skeleton costume, worn to a party.",
+    "ornament": "A decoration, festive or spooky.",
+    "snowman": "A seasonal figure put up for a celebration.",
+    "centerpiece": "A table decoration at a party.",
+    "outfit": "What you dress up in."
+  }
+}
